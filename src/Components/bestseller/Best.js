@@ -16,7 +16,8 @@ const Best = () => {
   return (
 <>
 
-    <Grid    container
+    <Grid
+    container
     direction="row"
     justifyContent="center"
   
@@ -46,10 +47,10 @@ const Best = () => {
   
       className=' mt-3'
        columns={{  sm: 12, md: 12 }}>
-      <Grid className="" variant="masonry" item xs={6}>
+      <Grid xs={6}>
 
 <Card className="bg-dark text-white ms-3 me-3 mb-3" width="300px" height="300px" id="card">
-  <Card.Img height="300px" src="images/banner-img-01.webp" alt="Card image" />
+  <Card.Img height="300px" src="images/Rectangle_356.webp" alt="Card image" />
   <Card.ImgOverlay className="mt-5 ">
     <Card.Title className='mt-5'><h1>SILKS SAREES</h1></Card.Title>
     <Card.Text><b>
@@ -72,7 +73,7 @@ const Best = () => {
      <Grid className=" " variant="masonry" item xs={3}>
 
 <Card className="bg-dark text-white ms-3 me-3 mb-3" width="300px" height="300px" id="card">
-  <Card.Img height="300px" src="images/images (1).jpg" alt="Card image" />
+  <Card.Img height="300px" src="images/Rectangle_365_2.webp" alt="Card image" />
   <Card.ImgOverlay className="mt-5 ">
     <Card.Title className='mt-5'><h1>SOFT SILKS SARESS
 
@@ -96,10 +97,10 @@ const Best = () => {
       
      
          {/* image="" */}
-        <Grid className=" " variant="masonry" item xs={3}>
+        <Grid xs={3}>
 
 <Card className="bg-dark text-white mb-3 ms-3 me-3 " width="300px" height="300px" id="card">
-  <Card.Img height="300px" src="images/banner-16-nov-mob-2.jpg" alt="Card image" />
+  <Card.Img height="300px" src="images/Rectangle_364.webp" alt="Card image" />
   <Card.ImgOverlay className="mt-5 ">
     <Card.Title className='mt-5'><h1>SAREES JUDE SILKS</h1></Card.Title>
    
@@ -123,9 +124,10 @@ const Best = () => {
 
 
 
-    <Grid    container
-    direction="row"
-    justifyContent="center"
+    <Grid   
+      container
+      direction="row"
+      justifyContent="center"
   
     
   >
@@ -158,10 +160,10 @@ const Best = () => {
 
 {/* <img  width="100%" height="300px" src="images/images (1).jpg" alt="" /> */}
 
-     <Grid className=" " variant="masonry" item xs={3}>
+     <Grid xs={3}>
 
 <Card className="bg-dark text-white ms-3 me-3 mb-3" width="300px" height="300px" id="card">
-  <Card.Img height="300px" src="images/images (1).jpg" alt="Card image" />
+  <Card.Img height="300px" src="images/Group_1396_2.webp" alt="Card image" />
   <Card.ImgOverlay className="mt-5 ">
     <Card.Title className='mt-5'><h1>SOFT SILKS SARESS
 
@@ -185,10 +187,10 @@ const Best = () => {
       
      
          {/* image="" */}
-        <Grid className=" " variant="masonry" item xs={3}>
+        <Grid xs={3}>
 
 <Card className="bg-dark text-white mb-3 ms-3 me-3" width="300px" height="300px" id="card">
-  <Card.Img height="300px" src="images/banner-16-nov-mob-2.jpg" alt="Card image" />
+  <Card.Img height="300px" src="images/Rectangle_363_3.webp" alt="Card image" />
   <Card.ImgOverlay className="mt-5 ">
     <Card.Title className='mt-5'><h1>SAREES JUDE SILKS</h1></Card.Title>
    
@@ -202,10 +204,10 @@ const Best = () => {
 
         </Grid>
 
-        <Grid className="" variant="masonry" item xs={6}>
+        <Grid xs={6}>
 
 <Card className="bg-dark text-white ms-3 me-3 mb-3" width="300px" height="300px" id="card">
-  <Card.Img height="300px" src="images/banner-img-01.webp" alt="Card image" />
+  <Card.Img height="300px" src="images/Rectangle_361_4.webp" alt="Card image" />
   <Card.ImgOverlay className="mt-5 ">
     <Card.Title className='mt-5'><h1>SILKS SAREES</h1></Card.Title>
     <Card.Text><b>
@@ -230,6 +232,27 @@ const Best = () => {
 
     
 
+    </Grid>
+    <Grid conatiner
+     className=' mt-3'
+     columns={{  sm: 12, md: 12 }}>
+  
+      <Grid xs={12}>
+
+
+      <Card className="bg-dark text-white mb-3 ms-3 me-3 " width="300px" height="300px" id="card">
+  <Card.Img height="300px" src="images/Foreground_7.webp" alt="Card image" />
+  <Card.ImgOverlay className="mt-5 ">
+    <Card.Title className='mt-5'><h1>NEW PRODUCTS</h1></Card.Title>
+   
+ 
+    <Button className=' ms-3' id='button' variant="danger">DISCOVER MORE</Button> 
+  </Card.ImgOverlay>
+</Card>
+
+
+
+      </Grid>
     </Grid>
 
 </>
