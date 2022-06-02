@@ -1,0 +1,25 @@
+.li{
+    text-decoration:line-through;
+}
+.footer{
+   
+background-color: #edf2f4;
+}
+h5{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.news{
+    background-color: #ef233c;
+}
+.letter{
+    letter-spacing: 5px;
+}
+
+.news-content{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+letter-spacing: 1px;
+}
+.btn-dark{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

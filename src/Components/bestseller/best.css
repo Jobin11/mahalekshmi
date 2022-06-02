@@ -1,0 +1,52 @@
+#card{
+    /* position: absolute; */
+    border:none;
+    border-radius: 2px;
+}
+
+
+.content{
+    position: relative;
+  
+  
+}
+img{
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+
+}
+
+.top{
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    bottom: 8rem;
+    color:white
+}
+/* #bottom{
+    position: absolute;
+    top: 19rem;
+    left: 4rem; 
+    color: white;
+} */
+.img-wrapper:hover{
+   
+    cursor: pointer;
+}
+.second-img{
+    position: relative;
+}
+.second-h{
+    position: absolute;
+    top:2rem;
+    left:30px;
+}
+#card:hover{
+-webkit-transition: 0.3s ease-in-out;
+}
+
+#button:hover{
+    text-decoration: underline;
+}
+   
