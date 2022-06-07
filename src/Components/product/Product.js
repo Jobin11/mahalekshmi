@@ -60,7 +60,7 @@ const Product = () => {
 
                     </Button>
 
-                    <Button href="" className='text-dark me-2' underline="none" onClick={() => (filterProduct("Silk Saree"))}>
+                    <Button href="" className='text-dark me-2' underline="none" onClick={() => (filterProduct("tops and kurtis"))}>
                         {'TOP & KURTIS'}
 
                     </Button>
@@ -91,21 +91,20 @@ const Product = () => {
                         <Grid item xs={12} sm={8} md={3}>
 
 
-                            <Card className='ms-3 mb-3 mt-3 me-3' sx={{ maxWidth: 345 }}>
+                            <Card className='ms-5 mb-3 mt-3 me-5' sx={{ maxWidth: 345 }}>
                                 <img width="100%" height="300" src={product.image}></img>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                        Lizard
+                                       {product.title}
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
+                                       {product.category}
+                                    </Typography>
+                                    <Typography variant="body4" color="dark">
+                                   <b><i class="fa fa-inr" aria-hidden="true"></i>  : {product.price}</b> 
                                     </Typography>
                                 </CardContent>
-                                <CardActions>
-                                    <Button size="small">Share</Button>
-                                    <Button size="small">Learn More</Button>
-                                </CardActions>
+                               
                             </Card>
 
 
